@@ -1,206 +1,257 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <nav>
-        
-        <span class="centrenav">
-            <input type="text" name="search" placeholder="Search" id="searchbar"> &nbsp;
-            <button id="searchbutton">
-                <img src="./assets/Assets-2/search.png" alt="search" width="25px" height="25px">
-            </button>  
-            &nbsp; &nbsp;   
-            <button id="voice">
-                <img src="./assets/Assets-2/voice-search.png" alt="voice" width="25px" height="25px">
-            </button>    
-        </span>
-        <span class="rightnav">
-            <img src="./assets/Assets-2/create-1.png" alt="create" width="27px" height="27px"> &nbsp; &nbsp; 
-            <img src="./assets/Assets-2/more.png" alt="more" width="27px" height="27px"> &nbsp; &nbsp; 
-            <img src="./assets/Assets-2/create.png" alt="notification" width="27px" height="27px"> &nbsp; &nbsp; &nbsp; &nbsp; 
-            <img src="./assets/Ellipse 1.png" alt="" width="34px" height="34px">
-        </span>
-    </nav>
+    <div class="left">
+        <div id="aside_links" class="aside">
+            <div id="firstaside">
+                <span class="leftnav">
+                    <a>
+                        <img src="./assets/Assets-2/hambarger.png" alt="more" width="25px" height="25px"
+                            class="hamburger"> 
+                    </a>
+                    <img src="./assets/Youtube logo.png" alt="logo" class="youtube_logo" width="110px" height="25px">
+                </span><br>
+                <img src="./assets/Assets-2/home.png" alt="home" width="30px" height="30px">
+                <span>Home</span>
+                <br>
+                <img src="./assets/Assets-2/explore.png" alt="explore" width="30px" height="30px">
+                <span>Explore</span>
+                <br>
+                <img src="./assets/Assets-2/shorts.png" alt="shorts" width="30px" height="30px">
+                <span>Shorts</span>
+                <br>
+                <img src="./assets/Assets-2/subscription.png" alt="subscription" width="30px" height="30px">
+                <span>Subscriptions</span>
+                <br>
+                <hr color="lightgrey">
 
-    <aside>
-        <div id="firstaside">
-            <span class="leftnav">
-            <img src="./assets/Assets-2/hambarger.png" alt="more" width="25px" height="25px"> &nbsp; &nbsp;
-            <img src="./assets/Youtube logo.png" alt="logo" width="110px" height="25px">
-        </span><br>
-            <img src="./assets/Assets-2/home.png" alt="home" width="30px" height="30px">
-            <span>Home</span>
-            <br>
-            <img src="./assets/Assets-2/explore.png" alt="explore" width="30px" height="30px">
-            <span>Explore</span>
-            <br>
-            <img src="./assets/Assets-2/shorts.png" alt="shorts" width="30px" height="30px">
-            <span>Shorts</span>
-            <br>
-            <img src="./assets/Assets-2/subscription.png" alt="subscription" width="30px" height="30px">
-            <span>Subscriptions</span>
-            <br>
-            <hr color="lightgrey">
-
-            <img src="./assets/Assets-2/library.png" alt="library" width="30px" height="30px">
-            <span>Library</span>
-            <br>
-           <img src="./assets/Assets-2/history.png" alt="history" width="30px" height="30px">
-            <span>History</span>
-            <br>
-            <img src="./assets/Assets-2/watch_later.png" alt="watch_later" width="30px" height="30px">
-            <span>Watch Later</span>
-            <br>
-            <img src="./assets/Assets-2/your_video.png" alt="your_video" width="30px" height="30px">
-            <span>Your videos</span>
-            <br>
-            <img src="./assets/Assets-2/liked.png" alt="liked_videos" width="30px" height="30px">
-            <span>Liked videos</span>
-            <br>
-            <img src="./assets/Assets-2/down_arrow.png" alt="show_more" width="30px" height="30px">
-            <span>Show more</span>
-            <br>
-            <hr color="lightgrey"> 
-            <br>  
-        </div>
-        
-        <div class="secondaside">
-            <span><b>Subscriptions</b></span>
-            <br><br>
-            <img src="./assets/Ellipse 1-5.png" alt="one" width="30px" height="30px">
-            <span>Nadir On The Go</span>
-            <br>
-            <img src="./assets/Ellipse 1-6.png" alt="two" width="30px" height="30px">
-            <span>Coke Studio Bangla</span>
-            <br>
-            <img src="./assets/Ellipse 1.png" alt="three" width="30px" height="30px"> 
-            <span>MKBHD</span>
-            <br>
-            <img src="./assets/Ellipse 1-1.png" alt="four" width="30px" height="30px">
-            <span>Figma</span>
-            <br>
-            <img src="./assets/Ellipse 1-2.png" alt="five" width="30px" height="30px">
-            <span>ATC Android To Cop</span>
-            <br>
-            <img src="./assets/Ellipse 1-3.png" alt="six" width="30px" height="30px">
-            <span>Alex.com</span>
-            <br>
-        </div>
-    </aside>
-    <div id="contents">
-        <hr class="hr">
-        <button class="contentbar">All</button>
-        <button class="contentbar">Coke Studio</button>
-        <button class="contentbar">UX</button>
-        <button class="contentbar">Case Study</button>
-        <button class="contentbar">Music</button>
-        <button class="contentbar">Bangla Lofi</button>
-        <button class="contentbar">Tour</button>
-        <button class="contentbar">Saintmartin</button>
-        <button class="contentbar">Tech</button>
-        <button class="contentbar">iPhone 13</button>
-        <button class="contentbar">User Interface Design</button>
-        <button class="contentbar">Computer Science</button>
-        <hr class="hr">
-    </div>
-
-    <div class="videos_section">
-            <div class="first">
-                <img src="./assets/Thumbnail-8.png" alt="one" >
-                <div>
-                    <img src="./assets/Ellipse 1-6.png" alt="pfp" width="28px" height="28px">
-                    <span><b>Bulbuli | Coke Studio Bangla |<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Season One | Ritu Raj X Nandita</b></span> <br>
-                    <div id="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Coke Studio  Bangla <img src="./assets/verified 2.png" alt="pic"></div>
-                    <div id="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1.5M views . 2 days ago</div>
-                </div>
+                <img src="./assets/Assets-2/library.png" alt="library" width="30px" height="30px">
+                <span>Library</span>
+                <br>
+                <img src="./assets/Assets-2/history.png" alt="history" width="30px" height="30px">
+                <span>History</span>
+                <br>
+                <img src="./assets/Assets-2/watch_later.png" alt="watch_later" width="30px" height="30px">
+                <span>Watch Later</span>
+                <br>
+                <img src="./assets/Assets-2/your_video.png" alt="your_video" width="30px" height="30px">
+                <span>Your videos</span>
+                <br>
+                <img src="./assets/Assets-2/liked.png" alt="liked_videos" width="30px" height="30px">
+                <span>Liked videos</span>
+                <br>
+                <img src="./assets/Assets-2/down_arrow.png" alt="show_more" width="30px" height="30px">
+                <span>Show more</span>
+                <br>
+                <hr color="lightgrey">
+                <br>
             </div>
 
-            <div class="second">
-                <img src="./assets/Thumbnail-9.png" alt="two" >
-                <div>
-                    <img src="./assets/Ellipse 1-2.png" alt="pfp" width="28px" height="28px">
-                    <span><b>Infinix Note 12: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AMOLED &nbsp; &nbsp; &nbsp; Hello GBB SoC!</b></span> <br>
-                    <div id="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ATC Android To To Company <img src="./assets/verified 2.png" alt="pic"></div>
-                    <div id="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 42M views . 2 days ago</div>
-                </div>
+            <div class="secondaside">
+                <span><b>Subscriptions</b></span>
+                <br><br>
+                <img src="./assets/Ellipse 1-5.png" alt="one" width="30px" height="30px">
+                <span>Nadir On The Go</span>
+                <br>
+                <img src="./assets/Ellipse 1-6.png" alt="two" width="30px" height="30px">
+                <span>Coke Studio Bangla</span>
+                <br>
+                <img src="./assets/Ellipse 1.png" alt="three" width="30px" height="30px">
+                <span>MKBHD</span>
+                <br>
+                <img src="./assets/Ellipse 1-1.png" alt="four" width="30px" height="30px">
+                <span>Figma</span>
+                <br>
+                <img src="./assets/Ellipse 1-2.png" alt="five" width="30px" height="30px">
+                <span>ATC Android To Cop</span>
+                <br>
+                <img src="./assets/Ellipse 1-3.png" alt="six" width="30px" height="30px">
+                <span>Alex.com</span>
+                <br>
             </div>
-
-            <div class="third">
-                <img src="./assets/Thumbnail-10.png" alt="one" >
-                <div>
-                    <img src="./assets/Ellipse 4-8.png" alt="pfp" width="28px" height="28px">
-                    <span><b>My First UX Design case study- <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  This got me my first job.</b></span> <br>
-                    <div id="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Saptarshi Prakash <img src="./assets/verified 2.png" alt="pic"></div>
-                    <div id="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 48K views . 1 year ago</div>
-                </div>
-            </div>
-
-            <div class="fourth">
-                <img src="./assets/Thumbnail-11.png" alt="one" >
-                <div>
-                    <span><b>My Mix</b></span> <br> 
-                    <div id="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Lopamundra Mitra, Anupam Roy, and more</div>
-                </div>
-            </div>
-
-            <div class="fifth">
-                <img src="./assets/Thumbnail-4.png" alt="one" >
-                <div>
-                    <img src="./assets/Ellipse 4-3.png" alt="pfp" width="28px" height="28px">
-                    <span><b>UX Design- What is it? (From AJ <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; & Smart)</b></span> <br>
-                    <div id="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AJ&Smar <img src="./assets/verified 2.png" alt="pic"></div>
-                    <div id="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 150KM views . 3 years ago</div>
-                </div>
-            </div>
-
-            <div class="sixth">
-                <img src="./assets/Thumbnail-5.png" alt="one" >
-                <div>
-                    <span><b>Mix - Mombati | Mohan Sharif | Dhakaiya <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Dose | Mahib Ahsan ft Anika</b></span> <br>
-                    <div id="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Mohan Sharif, Odd Signature, Shayan <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Chowdhury Arnob, and more<img src="./assets/verified 2.png" alt="pic"></div>
-                </div>
-            </div>
-
-            <div class="seventh">
-                <img src="./assets/Thumbnail-6.png" alt="one" >
-                <div>
-                    <img src="./assets/Ellipse 4-4.png" alt="pfp" width="28px" height="28px">
-                    <span><b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  - &nbsp; <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | 48 VISA-FREE</b></span> <br>
-                    <div id="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Nadir On The Go <img src="./assets/verified 2.png" alt="pic"></div>
-                    <div id="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1.7M views . 1 year ago</div>
-                </div>
-            </div>
-
-            <div class="eigth">
-                <img src="./assets/Thumbnail-7.png" alt="one" >
-                <div>
-                    <img src="./assets/Ellipse 4-5.png" alt="pfp" width="28px" height="28px">
-                    <span><b>14 Advanced Tips To Design <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FASTER in Figma</b></span> <br>
-                    <div id="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Mizko <img src="./assets/verified 2.png" alt="pic"></div>
-                    <div id="name"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 53K views . 1 year ago</div>
-                </div>
-            </div>
-
-        <div class="ninth">
-            <img src="./assets/Thumbnail.png" alt="one" >
-        </div>
-
-        <div class="tenth">
-            <img src="./assets/Thumbnail-1.png" alt="one" >
-        </div>
-
-        <div class="eleventh">
-            <img src="./assets/Thumbnail-2.png" alt="one" >
-        </div>
-
-        <div class="twelfth">
-            <img src="./assets/Thumbnail-3.png" alt="one" >
         </div>
     </div>
+    <div class="right">
+        <nav id="upperNav">
+            <span class="centrenav">
+                <input type="text" name="search" placeholder="Search" id="searchbar"> &nbsp;
+                <button id="searchbutton">
+                    <img src="./assets/Assets-2/search.png" alt="search" width="25px" height="25px">
+                </button>
+                &nbsp; &nbsp;
+                <button id="voice">
+                    <img src="./assets/Assets-2/voice-search.png" alt="voice" width="25px" height="25px">
+                </button>
+            </span>
+            <span class="rightnav">
+                <img src="./assets/Assets-2/create-1.png" alt="" class="create_icon">
+                <img src="./assets/Assets-2/more.png" alt="" class="more"> 
+                <img src="./assets/Assets-2/create.png" alt="" class="notification" >
+                <img src="./assets/Ellipse 1.png" alt="" class="pfp_img">
+            </span>
+        </nav>
+        <div id="contents">
+            <hr class="hr">
+            <button class="contentbar">All</button>
+            <button class="contentbar">Coke Studio</button>
+            <button class="contentbar">UX</button>
+            <button class="contentbar">Case Study</button>
+            <button class="contentbar">Music</button>
+            <button class="contentbar">Bangla Lofi</button>
+            <button class="contentbar">Tour</button>
+            <button class="contentbar">Saintmartin</button>
+            <button class="contentbar">Tech</button>
+            <button class="contentbar">iPhone 13</button>
+            <button class="contentbar">User Interface Design</button>
+            <button class="contentbar">Computer Science</button>
+            <hr class="hr">
+        </div>
+
+        <div class="videos_section">
+            <div class="row-one row ">
+                <div class="first desc">
+                    <img src="./assets/Thumbnail-8.png" alt="one" class="video_img">
+                    <div>
+                        <img src="./assets/Ellipse 1-6.png" alt="pfp" width="28px" height="28px">
+                        <span><b>Bulbuli | Coke Studio Bangla |<br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Season One
+                                |
+                                Ritu Raj X Nandita</b></span> <br>
+                        <div class="name"> &nbsp; &nbsp; &nbsp; Coke Studio Bangla <img
+                                src="./assets/verified 2.png" alt="pic"></div>
+                        <div class="name"> &nbsp; &nbsp; &nbsp; 1.5M views . 2 days ago</div>
+                    </div>
+                </div>
+
+                <div class="second desc">
+                    <img src="./assets/Thumbnail-9.png" alt="two class="video_img">
+                    <div>
+                        <img src="./assets/Ellipse 1-2.png" alt="pfp" width="28px" height="28px">
+                        <span><b>Infinix Note 12: <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; AMOLED &nbsp; &nbsp;
+                                &nbsp;
+                                Hello GBB SoC!</b></span> <br>
+                        <div class="name"> &nbsp;  &nbsp; &nbsp; ATC Android To To Company <img
+                                src="./assets/verified 2.png" alt="pic"></div>
+                        <div class="name"> &nbsp; &nbsp; &nbsp; 42M views . 2 days ago</div>
+                    </div>
+                </div>
+
+                <div class="third desc">
+                    <img src="./assets/Thumbnail-10.png" alt="one class="video_img">
+                    <div>
+                        <img src="./assets/Ellipse 4-8.png" alt="pfp" width="28px" height="28px">
+                        <span><b>My First UX Design case study- <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; This got
+                                me
+                                my first job.</b></span> <br>
+                        <div class="name"> &nbsp; &nbsp; &nbsp; Saptarshi Prakash <img
+                                src="./assets/verified 2.png" alt="pic"></div>
+                        <div class="name"> &nbsp; &nbsp; &nbsp; 48K views . 1 year ago</div>
+                    </div>
+                </div>
+
+                <div class="fourth desc">
+                    <img src="./assets/Thumbnail-11.png" alt="one">
+                    <div>
+                        <span><b>My Mix</b></span> <br>
+                        <div class="name"> &nbsp; &nbsp; &nbsp; Lopamundra Mitra, Anupam Roy, and more</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-two row ">
+                <div class="fifth desc">
+                    <img src="./assets/Thumbnail-4.png" alt="one">
+                    <div>
+                        <img src="./assets/Ellipse 4-3.png" alt="pfp" width="28px" height="28px">
+                        <span><b>UX Design- What is it? (From AJ <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &
+                                Smart)</b></span>
+                        <br>
+                        <div class="name"> &nbsp;  &nbsp; &nbsp; AJ&Smar <img src="./assets/verified 2.png"
+                                alt="pic"></div>
+                        <div class="name"> &nbsp;  &nbsp; &nbsp; 150KM views . 3 years ago</div>
+                    </div>
+                </div>
+
+                <div class="sixth desc">
+                    <img src="./assets/Thumbnail-5.png" alt="one">
+                    <div>
+                        <span><b>Mix - Mombati | Mohan Sharif | Dhakaiya <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Dose |
+                                Mahib Ahsan ft Anika</b></span> <br>
+                        <div class="name"> &nbsp; &nbsp; &nbsp; Mohan Sharif, Odd Signature, Shayan <br>
+                            &nbsp;
+                            &nbsp; &nbsp;  Chowdhury Arnob, and more<img src="./assets/verified 2.png"
+                                alt="pic"></div>
+                    </div>
+                </div>
+
+                <div class="seventh desc">
+                    <img src="./assets/Thumbnail-6.png" alt="one">
+                    <div>
+                        <img src="./assets/Ellipse 4-4.png" alt="pfp" width="28px" height="28px">
+                        <span><b> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;
+                                <br>
+                                &nbsp; &nbsp; &nbsp;  | 48 VISA-FREE</b></span> <br>
+                        <div class="name">  &nbsp; &nbsp; &nbsp; Nadir On The Go <img
+                                src="./assets/verified 2.png" alt="pic"></div>
+                        <div class="name">  &nbsp; &nbsp; &nbsp; 1.7M views . 1 year ago</div>
+                    </div>
+                </div>
+
+                <div class="eigth desc">
+                    <img src="./assets/Thumbnail-7.png" alt="one">
+                    <div>
+                        <img src="./assets/Ellipse 4-5.png" alt="pfp" width="28px" height="28px">
+                        <span><b>14 Advanced Tips To Design <br> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; FASTER in
+                                Figma</b></span> <br>
+                        <div class="name"> &nbsp; &nbsp; &nbsp;  Mizko <img
+                                src="./assets/verified 2.png" alt="pic"></div>
+                        <div class="name"> &nbsp; &nbsp; &nbsp; 53K views . 1 year ago</div>
+                    </div>
+                </div>
+            </div>
+            <div class="row-three row">
+                <div class="ninth ">
+                    <img src="./assets/Thumbnail.png" alt="one">
+                </div>
+
+                <div class="tenth">
+                    <img src="./assets/Thumbnail-1.png" alt="one">
+                </div>
+
+                <div class="eleventh">
+                    <img src="./assets/Thumbnail-2.png" alt="one">
+                </div>
+
+                <div class="twelfth">
+                    <img src="./assets/Thumbnail-3.png" alt="one">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer_links">
+            <ul>
+                <li><a href="#"><img src="./assets/Assets-2/home.png" alt="home" width="30px" height="30px"><br>Home</a>
+                </li>
+                <li><a href="#"><img src="./assets/Assets-2/shorts.png" alt="shorts" width="30px"
+                            height="30px"><br>Shorts</a></li>
+                <li><a href="#"><img src="./assets/Assets-2/create-1.png" alt="create" width="27px" height="27px"></a>
+                </li>
+                <li><a href="#"><img src="./assets/Assets-2/subscription.png" alt="subscription" width="30px"
+                            height="30px"><br>Subscriptions</a></li>
+                <li><a href="#"><img src="./assets/Ellipse 1.png" alt="" width="34px" height="34px"><br>You</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
 </body>
+
 </html>
